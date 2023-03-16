@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <form action="mailto:mandika.magar@deerwalk.edu.np?subject=hi&cc=hello " method=" post" enctype="text/plain">
+    <fieldset>
+      <legend>Hmmmmmmm</legend>
+      <p>
+        <label for="mail">Email</label>
+        <input type="email" id="mail" name="mail" placeholder="email" value="mandika">
+      </p>
+      <p>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="username" required>
+      </p>
+      <button type="submit">submit</button>
+      <p>
+      <h1>Select Your Gender</h1>
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender">
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender" checked>
+      </p>
+
+      <p>
+        <label for="fav">favorite</label>
+        <select name="fav" id="fav">
+          <optgroup label="Iced Coffee">
+            <option value="iced">Iced Lattee</option>
+            <option value="iced tea">Ice Lemon tea</option>
+          </optgroup>
+
+          <option value="latte" selected>Latte</option>
+          <option value="Mocha">Mocha</option>
+          <option value="Americano">Americano</option>
+        </select>
+      </p>
+    </fieldset>
+
+
+  </form>
+
+  <body>
+    <p>HIIII</p>
+    <p>
+      <label for="date">Date</label>
+      <input type="date" id="date" name="date">
+      <label for="image">Select File</label>
+      <input type="file" accept="image/*" id="image">
+      <!--accept image/* is used to only select an image -->
+    </p>
+    <button type="reset">reset</button>
+    <textarea name-="msg" id="msg" cols="40" rows="10"></textarea>
+
+    <label for="color">color</label>
+    <input type="color" id="color">
+    <input type="image" src="">
+  </body>
+
+</html>
